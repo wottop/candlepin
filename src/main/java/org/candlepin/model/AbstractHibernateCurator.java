@@ -551,6 +551,7 @@ public abstract class AbstractHibernateCurator<E extends Persisted> {
             criteria.add(restrictions);
         }
 
+        // test
         return criteria;
     }
 
